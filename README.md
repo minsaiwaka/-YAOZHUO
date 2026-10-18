@@ -1,5 +1,4 @@
-<img width="1744" height="1366" alt="image" src="https://github.com/user-attachments/assets/cba275cc-abe1-46fa-a845-1e5c233d9642" /><p align="center">
-  <img src="public/caseboard/icon.png" width="88" height="88" alt="謠诼图标">
+<img src="public/caseboard/icon.png" width="88" height="88" alt="謠诼图标">
 </p>
 
 <h1 align="center">謠诼</h1>
