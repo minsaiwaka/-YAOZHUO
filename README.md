@@ -1,4 +1,4 @@
-<p align="center">
+<img width="1744" height="1366" alt="image" src="https://github.com/user-attachments/assets/cba275cc-abe1-46fa-a845-1e5c233d9642" /><p align="center">
   <img src="public/caseboard/icon.png" width="88" height="88" alt="謠诼图标">
 </p>
 
@@ -117,22 +117,8 @@ npm run dev:desktop
 **姓名和缩写匹配需要人工核对** 不能可靠追踪「他、她、TA」等代词。未载入的会话不参与分析；偏好、饮品等常用表达的归纳也需要结合原文判断。
 
 ## 开发与打包
-
-```sh
-npm run typecheck:caseboard
-npm run test:caseboard
-npm run build
-```
-
-| 命令 | 用途 |
-| --- | --- |
-| `npm run dist:win` | 在 Windows 构建 x64 / ARM64 安装包。 |
-| `npm run dist:mac` | 在 macOS 构建 Universal 安装包。 |
-| `npm run check:public` | 检查待提交源码中的本地资料与凭证。 |
-
+由于不可抗因素，release并未附带实际可安装版本。
 GitHub Actions 提供 Windows 与 macOS 构建流程。Windows x64 / ARM64 已完成构建验证；macOS 已配置 Universal 构建但未经验证，欢迎提交issue。
-
-`src/caseboard/` 为界面与分析逻辑，`electron/caseboard/` 为桌面入口及本地读取引擎，`native/key-reader/` 为原生读取器源码。
 
 版本变化见 [更新记录](CHANGELOG.md)。
 
