@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">謠诼</h1>
-<p align="center"><em>众女嫉余之蛾眉兮，谣诼谓余以善淫。</em></p>
+<p align="center"><em>"众女嫉余之蛾眉兮，谣诼谓余以善淫"</em></p>
 <p align="center">把零散的对话，整理成可核对的人物档案。</p>
 <p align="center">像素线索板 · 人物卷宗 · 聊天分析 · 本地资料</p>
 
