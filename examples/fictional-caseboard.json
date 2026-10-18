@@ -1,0 +1,1555 @@
+{
+  "schemaVersion": 1,
+  "id": "readme-fictional-archive",
+  "title": "橋邊舊書店 · 虛構展示檔案",
+  "source": "demo",
+  "importedAt": 1758081600000,
+  "ownerId": "me",
+  "people": [
+    {
+      "id": "me",
+      "name": "我",
+      "kind": "self"
+    },
+    {
+      "id": "lin",
+      "name": "林知夏",
+      "alias": "知夏",
+      "kind": "person"
+    },
+    {
+      "id": "chen",
+      "name": "陈屿",
+      "alias": "阿屿",
+      "kind": "person"
+    },
+    {
+      "id": "xu",
+      "name": "许棠",
+      "kind": "person"
+    },
+    {
+      "id": "zhou",
+      "name": "周予安",
+      "kind": "person"
+    },
+    {
+      "id": "su",
+      "name": "苏眠",
+      "kind": "person"
+    },
+    {
+      "id": "lu",
+      "name": "陆遥",
+      "kind": "person"
+    },
+    {
+      "id": "g-town",
+      "name": "小镇散步俱乐部",
+      "kind": "group"
+    },
+    {
+      "id": "g-photo",
+      "name": "周末胶片计划",
+      "kind": "group"
+    },
+    {
+      "id": "g-book",
+      "name": "桥边旧书店",
+      "kind": "group"
+    }
+  ],
+  "messages": [
+    {
+      "id": "demo-001",
+      "originalId": "demo-001",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756706400000,
+      "content": "知夏，周末还去桥边旧书店吗？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-002",
+      "originalId": "demo-002",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1756706490000,
+      "content": "去呀，旧书店新到了一箱摄影画册。",
+      "kind": "text",
+      "replyTo": "demo-001"
+    },
+    {
+      "id": "demo-003",
+      "originalId": "demo-003",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756706580000,
+      "content": "那我们带上胶片相机，顺便拍一下河边。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-004",
+      "originalId": "demo-004",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1756706670000,
+      "content": "好，周六两点在旧书店门口见。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-005",
+      "originalId": "demo-005",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756710000000,
+      "content": "我刚和林知夏约了周末去旧书店，你要来吗？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-006",
+      "originalId": "demo-006",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "chen",
+      "senderName": "陈屿",
+      "timestamp": 1756710090000,
+      "content": "林知夏上次推荐的摄影画册还在那里，我想去翻翻。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-007",
+      "originalId": "demo-007",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756710180000,
+      "content": "她说旧书店有新书，之后可以一起去喝咖啡。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-008",
+      "originalId": "demo-008",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "chen",
+      "senderName": "陈屿",
+      "timestamp": 1756710270000,
+      "content": "[图片] 旧书店窗边的摄影画册",
+      "kind": "image",
+      "mediaKey": "demo:book",
+      "mediaFileName": "demo-book.png"
+    },
+    {
+      "id": "demo-009",
+      "originalId": "demo-009",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1756713600000,
+      "content": "周末的散步路线改走河边，有人一起吗？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-010",
+      "originalId": "demo-010",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1756713690000,
+      "content": "我先去旧书店，三点可以在石桥会合。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-011",
+      "originalId": "demo-011",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756713780000,
+      "content": "林知夏和我会从旧书店过去，带着相机。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-012",
+      "originalId": "demo-012",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "su",
+      "senderName": "苏眠",
+      "timestamp": 1756713870000,
+      "content": "那我到石桥等你们，顺便带些面包。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-013",
+      "originalId": "demo-013",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "xu",
+      "senderName": "许棠",
+      "timestamp": 1756803600000,
+      "content": "lzx 上次说的那家旧书店在哪条路？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-014",
+      "originalId": "demo-014",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756803690000,
+      "content": "桥西街十八号，门口有一盆很大的绿植。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-015",
+      "originalId": "demo-015",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "xu",
+      "senderName": "许棠",
+      "timestamp": 1756803780000,
+      "content": "我想请 lzx 帮我挑一本摄影入门书。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-016",
+      "originalId": "demo-016",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756803870000,
+      "content": "我晚点问问林知夏，周末她应该会过去。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-017",
+      "originalId": "demo-017",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1756792800000,
+      "content": "我找到一张旧书店十年前的照片，想做个小对照。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-018",
+      "originalId": "demo-018",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756792890000,
+      "content": "[表情] 点头的小猫",
+      "kind": "emoji",
+      "mediaKey": "demo:cat",
+      "mediaFileName": "demo-cat.png"
+    },
+    {
+      "id": "demo-019",
+      "originalId": "demo-019",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1756792980000,
+      "content": "周末光线合适的话，用彩色胶片试试。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-020",
+      "originalId": "demo-020",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756793070000,
+      "content": "我把三脚架也带上，别忘了摄影画册。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-021",
+      "originalId": "demo-021",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "lu",
+      "senderName": "陆遥",
+      "timestamp": 1756796400000,
+      "content": "这周摄影主题定成街角可以吗？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-022",
+      "originalId": "demo-022",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1756796490000,
+      "content": "我想拍旧书店和河边，正好有一卷胶片。",
+      "kind": "text",
+      "replyTo": "demo-021"
+    },
+    {
+      "id": "demo-023",
+      "originalId": "demo-023",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "chen",
+      "senderName": "陈屿",
+      "timestamp": 1756796580000,
+      "content": "林知夏拍旧书店的话，我来拍对面的咖啡店。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-024",
+      "originalId": "demo-024",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756796670000,
+      "content": "两组照片放在一起，做一个周末小展。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-025",
+      "originalId": "demo-025",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756886400000,
+      "content": "林知夏说石桥那段路正在维修，周末绕远一点吧。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-026",
+      "originalId": "demo-026",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1756886490000,
+      "content": "收到，我把散步路线改到咖啡店后面的巷子。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-027",
+      "originalId": "demo-027",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756886580000,
+      "content": "她还想拍一些老门牌，巷子里应该有。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-028",
+      "originalId": "demo-028",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1756886670000,
+      "content": "我记得那里有几块蓝底白字的旧门牌。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-029",
+      "originalId": "demo-029",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "su",
+      "senderName": "苏眠",
+      "timestamp": 1756890000000,
+      "content": "林知夏喜欢的那款手冲豆子到货了。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-030",
+      "originalId": "demo-030",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756890090000,
+      "content": "我告诉她，周末从旧书店回来可以来喝咖啡。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-031",
+      "originalId": "demo-031",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "su",
+      "senderName": "苏眠",
+      "timestamp": 1756890180000,
+      "content": "给 lzx 留一份，烘焙日期是昨天。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-032",
+      "originalId": "demo-032",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756890270000,
+      "content": "好的，我顺便把她上次落下的摄影画册带过去。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-033",
+      "originalId": "demo-033",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "xu",
+      "senderName": "许棠",
+      "timestamp": 1756879200000,
+      "content": "旧书店周末准备整理摄影书架，缺两位帮手。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-034",
+      "originalId": "demo-034",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1756879290000,
+      "content": "我下午有空，可以按年代排一排摄影画册。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-035",
+      "originalId": "demo-035",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756879380000,
+      "content": "我和林知夏一起过去，带标签纸。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-036",
+      "originalId": "demo-036",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1756879470000,
+      "content": "我来帮忙搬书箱，大家周末见。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-037",
+      "originalId": "demo-037",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "lu",
+      "senderName": "陆遥",
+      "timestamp": 1756969200000,
+      "content": "你和林知夏经常去旧书店吧，那里能借地方办摄影小展吗？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-038",
+      "originalId": "demo-038",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756969290000,
+      "content": "知夏问过店主，靠窗那面墙可以用。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-039",
+      "originalId": "demo-039",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "lu",
+      "senderName": "陆遥",
+      "timestamp": 1756969380000,
+      "content": "那我把周末摄影的样片打印出来给她看看。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-040",
+      "originalId": "demo-040",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1756969470000,
+      "content": "[图片] 旧书店窗边的摄影画册",
+      "kind": "image",
+      "mediaKey": "demo:book",
+      "mediaFileName": "demo-book.png"
+    },
+    {
+      "id": "demo-041",
+      "originalId": "demo-041",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757059200000,
+      "content": "摄影小展的墙面我量好了，宽两米四。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-042",
+      "originalId": "demo-042",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757059290000,
+      "content": "那放六张照片就够了，旧书店原本的海报保留。",
+      "kind": "text",
+      "replyTo": "demo-041"
+    },
+    {
+      "id": "demo-043",
+      "originalId": "demo-043",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757059380000,
+      "content": "陆遥说可以帮忙打印样片。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-044",
+      "originalId": "demo-044",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757059470000,
+      "content": "我周末把选好的胶片底片带给他。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-045",
+      "originalId": "demo-045",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "chen",
+      "senderName": "陈屿",
+      "timestamp": 1757062800000,
+      "content": "lzx 的摄影小展是这个周末开吗？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-046",
+      "originalId": "demo-046",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757062890000,
+      "content": "还在准备，她想先和旧书店店主确认时间。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-047",
+      "originalId": "demo-047",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "chen",
+      "senderName": "陈屿",
+      "timestamp": 1757062980000,
+      "content": "明白，咖啡店可以送一壶冷萃过去。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-048",
+      "originalId": "demo-048",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757063070000,
+      "content": "林知夏应该会喜欢这个提议，我帮你转达。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-049",
+      "originalId": "demo-049",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757138400000,
+      "content": "林知夏挑了六张旧书店周边的照片，群里先看一下。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-050",
+      "originalId": "demo-050",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757138490000,
+      "content": "其中两张是上个周末用胶片拍的，颗粒比较明显。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-051",
+      "originalId": "demo-051",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "lu",
+      "senderName": "陆遥",
+      "timestamp": 1757138580000,
+      "content": "我建议打印在哑光纸上，旧书店灯光会柔和一点。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-052",
+      "originalId": "demo-052",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "chen",
+      "senderName": "陈屿",
+      "timestamp": 1757138670000,
+      "content": "[表情] 点头的小猫",
+      "kind": "emoji",
+      "mediaKey": "demo:cat",
+      "mediaFileName": "demo-cat.png"
+    },
+    {
+      "id": "demo-053",
+      "originalId": "demo-053",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757142000000,
+      "content": "林知夏选中了那张窗边读书的照片。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-054",
+      "originalId": "demo-054",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "xu",
+      "senderName": "许棠",
+      "timestamp": 1757142090000,
+      "content": "旧书店那张吗？我很喜欢画面里的橙色灯。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-055",
+      "originalId": "demo-055",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757142180000,
+      "content": "是的，她说想配一句关于周末的短文。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-056",
+      "originalId": "demo-056",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "xu",
+      "senderName": "许棠",
+      "timestamp": 1757142270000,
+      "content": "我来找几段合适的文字，摄影画册里也有访谈可参考。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-057",
+      "originalId": "demo-057",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1757232000000,
+      "content": "上次说的旧门牌我找到了，发个定位给林知夏？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-058",
+      "originalId": "demo-058",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757232090000,
+      "content": "可以，知夏还想拍一组清晨的小镇街道。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-059",
+      "originalId": "demo-059",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1757232180000,
+      "content": "那我周末六点半去石桥等你们。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-060",
+      "originalId": "demo-060",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757232270000,
+      "content": "[表情] 点头的小猫",
+      "kind": "emoji",
+      "mediaKey": "demo:cat",
+      "mediaFileName": "demo-cat.png"
+    },
+    {
+      "id": "demo-061",
+      "originalId": "demo-061",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "su",
+      "senderName": "苏眠",
+      "timestamp": 1757235600000,
+      "content": "周末可能下雨，散步俱乐部要不要取消？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-062",
+      "originalId": "demo-062",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757235690000,
+      "content": "小雨可以拍倒影，大雨就去旧书店看摄影画册。",
+      "kind": "text",
+      "replyTo": "demo-061"
+    },
+    {
+      "id": "demo-063",
+      "originalId": "demo-063",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1757235780000,
+      "content": "林知夏这个备选方案不错，我改一下集合公告。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-064",
+      "originalId": "demo-064",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757235870000,
+      "content": "集合地点先写咖啡店，大家到了再决定。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-065",
+      "originalId": "demo-065",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757311200000,
+      "content": "林知夏的摄影小展想用一点咖啡香氛，你店里有空瓶吗？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-066",
+      "originalId": "demo-066",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "su",
+      "senderName": "苏眠",
+      "timestamp": 1757311290000,
+      "content": "有，不过旧书店空间不大，咖啡味太浓会盖住书香。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-067",
+      "originalId": "demo-067",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757311380000,
+      "content": "有道理，我和知夏说改成一小罐咖啡豆。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-068",
+      "originalId": "demo-068",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "su",
+      "senderName": "苏眠",
+      "timestamp": 1757311470000,
+      "content": "我给 lzx 留一个小玻璃罐，周末过来拿。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-069",
+      "originalId": "demo-069",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757401200000,
+      "content": "我把摄影小展的标题改成了“周末慢一点”。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-070",
+      "originalId": "demo-070",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757401290000,
+      "content": "很适合旧书店，照片说明也不用太长。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-071",
+      "originalId": "demo-071",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757401380000,
+      "content": "对了，许棠帮我找到一本关于街头摄影的旧书。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-072",
+      "originalId": "demo-072",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757401470000,
+      "content": "那周末一起翻翻，顺便确定照片的顺序。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-073",
+      "originalId": "demo-073",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757404800000,
+      "content": "lzx 的样片打印好了没？她周末要带去旧书店。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-074",
+      "originalId": "demo-074",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "lu",
+      "senderName": "陆遥",
+      "timestamp": 1757404890000,
+      "content": "好了，哑光纸比想象中适合这些胶片照片。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-075",
+      "originalId": "demo-075",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757404980000,
+      "content": "林知夏说谢谢你，打印费用她会记在小展的清单上。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-076",
+      "originalId": "demo-076",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "lu",
+      "senderName": "陆遥",
+      "timestamp": 1757405070000,
+      "content": "[图片] 旧书店窗边的摄影画册",
+      "kind": "image",
+      "mediaKey": "demo:book",
+      "mediaFileName": "demo-book.png"
+    },
+    {
+      "id": "demo-077",
+      "originalId": "demo-077",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1757494800000,
+      "content": "旧书店靠窗的墙面已经清理好了。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-078",
+      "originalId": "demo-078",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757494890000,
+      "content": "谢谢大家，周末带样片过去试着排一下。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-079",
+      "originalId": "demo-079",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "xu",
+      "senderName": "许棠",
+      "timestamp": 1757494980000,
+      "content": "林知夏的摄影说明我校完了，放在群文件里。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-080",
+      "originalId": "demo-080",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757495070000,
+      "content": "[图片] 旧书店窗边的摄影画册",
+      "kind": "image",
+      "mediaKey": "demo:book",
+      "mediaFileName": "demo-book.png"
+    },
+    {
+      "id": "demo-081",
+      "originalId": "demo-081",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757570400000,
+      "content": "你有没有看到林知夏放在咖啡店的黑色镜头盖？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-082",
+      "originalId": "demo-082",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "chen",
+      "senderName": "陈屿",
+      "timestamp": 1757570490000,
+      "content": "看到了，在收银台旁边。我写了 lzx 的名字。",
+      "kind": "text",
+      "replyTo": "demo-081"
+    },
+    {
+      "id": "demo-083",
+      "originalId": "demo-083",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757570580000,
+      "content": "太好了，她还以为丢在旧书店了。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-084",
+      "originalId": "demo-084",
+      "sessionId": "chen",
+      "sessionName": "陈屿",
+      "senderId": "chen",
+      "senderName": "陈屿",
+      "timestamp": 1757570670000,
+      "content": "[表情] 点头的小猫",
+      "kind": "emoji",
+      "mediaKey": "demo:cat",
+      "mediaFileName": "demo-cat.png"
+    },
+    {
+      "id": "demo-085",
+      "originalId": "demo-085",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "xu",
+      "senderName": "许棠",
+      "timestamp": 1757574000000,
+      "content": "林知夏问我摄影小展的邀请卡要用什么颜色。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-086",
+      "originalId": "demo-086",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757574090000,
+      "content": "旧书店的灯光偏暖，用奶油色可能合适。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-087",
+      "originalId": "demo-087",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "xu",
+      "senderName": "许棠",
+      "timestamp": 1757574180000,
+      "content": "我也这么想，周末带纸样给她看看。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-088",
+      "originalId": "demo-088",
+      "sessionId": "xu",
+      "sessionName": "许棠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757574270000,
+      "content": "邀请卡上记得写清楚：只是朋友们的摄影分享。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-089",
+      "originalId": "demo-089",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "lu",
+      "senderName": "陆遥",
+      "timestamp": 1757664000000,
+      "content": "周末摄影分享的样片都准备好了。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-090",
+      "originalId": "demo-090",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "chen",
+      "senderName": "陈屿",
+      "timestamp": 1757664090000,
+      "content": "林知夏那张雨天石桥的照片，能单独留一张给我吗？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-091",
+      "originalId": "demo-091",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757664180000,
+      "content": "可以，我带底片来，大家一起挑打印尺寸。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-092",
+      "originalId": "demo-092",
+      "sessionId": "g-photo",
+      "sessionName": "周末胶片计划",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757664270000,
+      "content": "摄影说明和时间我放进共享清单了。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-093",
+      "originalId": "demo-093",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757667600000,
+      "content": "lzx 说周末先去旧书店，再走河边那条摄影路线。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-094",
+      "originalId": "demo-094",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1757667690000,
+      "content": "没问题，门牌的位置我也在地图上标好了。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-095",
+      "originalId": "demo-095",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757667780000,
+      "content": "林知夏想把这段路画成小卡片，留在旧书店给客人。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-096",
+      "originalId": "demo-096",
+      "sessionId": "zhou",
+      "sessionName": "周予安",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1757667870000,
+      "content": "我来补上咖啡店和公厕的位置，方便大家走。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-097",
+      "originalId": "demo-097",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "su",
+      "senderName": "苏眠",
+      "timestamp": 1757743200000,
+      "content": "林知夏要的小玻璃罐我洗好了，里面放了少量咖啡豆。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-098",
+      "originalId": "demo-098",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757743290000,
+      "content": "谢谢，周末摄影小展应该正好用上。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-099",
+      "originalId": "demo-099",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "su",
+      "senderName": "苏眠",
+      "timestamp": 1757743380000,
+      "content": "还有两杯咖啡券，给旧书店帮忙整理书架的人。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-100",
+      "originalId": "demo-100",
+      "sessionId": "su",
+      "sessionName": "苏眠",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757743470000,
+      "content": "我交给知夏，让她记录在感谢名单里。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-101",
+      "originalId": "demo-101",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757833200000,
+      "content": "周末摄影小展准备得怎么样？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-102",
+      "originalId": "demo-102",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757833290000,
+      "content": "样片都夹好了，旧书店的灯光也试过了。",
+      "kind": "text",
+      "replyTo": "demo-101"
+    },
+    {
+      "id": "demo-103",
+      "originalId": "demo-103",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757833380000,
+      "content": "大家都说想看看你拍的那张石桥倒影。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-104",
+      "originalId": "demo-104",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757833470000,
+      "content": "[图片] 周末的一杯咖啡",
+      "kind": "image",
+      "mediaKey": "demo:coffee",
+      "mediaFileName": "demo-coffee.png"
+    },
+    {
+      "id": "demo-105",
+      "originalId": "demo-105",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757836800000,
+      "content": "林知夏的摄影分享定在周末三点，地点是桥边旧书店。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-106",
+      "originalId": "demo-106",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1757836890000,
+      "content": "散步结束正好过去，路线卡片我已经打印了。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-107",
+      "originalId": "demo-107",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "su",
+      "senderName": "苏眠",
+      "timestamp": 1757836980000,
+      "content": "我从咖啡店带一壶热水，大家记得带杯子。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-108",
+      "originalId": "demo-108",
+      "sessionId": "g-town",
+      "sessionName": "小镇散步俱乐部",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757837070000,
+      "content": "谢谢大家，旧书店见，下雨也照常。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-109",
+      "originalId": "demo-109",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "lu",
+      "senderName": "陆遥",
+      "timestamp": 1757926800000,
+      "content": "林知夏的小展结束后，摄影样片怎么保存？",
+      "kind": "text"
+    },
+    {
+      "id": "demo-110",
+      "originalId": "demo-110",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757926890000,
+      "content": "她想送给旧书店一套，剩下的装进作品夹。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-111",
+      "originalId": "demo-111",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "lu",
+      "senderName": "陆遥",
+      "timestamp": 1757926980000,
+      "content": "那我带一些无酸纸袋，胶片和照片分开放。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-112",
+      "originalId": "demo-112",
+      "sessionId": "lu",
+      "sessionName": "陆遥",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757927070000,
+      "content": "好，周末结束后我和 lzx 一起整理。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-113",
+      "originalId": "demo-113",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "xu",
+      "senderName": "许棠",
+      "timestamp": 1757916000000,
+      "content": "摄影分享的邀请卡放在旧书店柜台了，欢迎周末来坐坐。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-114",
+      "originalId": "demo-114",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1757916090000,
+      "content": "我会带上那本摄影画册，方便大家翻看参考。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-115",
+      "originalId": "demo-115",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "zhou",
+      "senderName": "周予安",
+      "timestamp": 1757916180000,
+      "content": "林知夏的路线卡也到了，石桥那段路已经恢复通行。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-116",
+      "originalId": "demo-116",
+      "sessionId": "g-book",
+      "sessionName": "桥边旧书店",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1757916270000,
+      "content": "那就周末见，记得给店里的绿植留一点位置。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-117",
+      "originalId": "demo-117",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1758006000000,
+      "content": "今天旧书店来了很多朋友，摄影分享顺利结束了。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-118",
+      "originalId": "demo-118",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1758006090000,
+      "content": "[图片] 周末的一杯咖啡",
+      "kind": "image",
+      "mediaKey": "demo:coffee",
+      "mediaFileName": "demo-coffee.png"
+    },
+    {
+      "id": "demo-119",
+      "originalId": "demo-119",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "lin",
+      "senderName": "林知夏",
+      "timestamp": 1758006180000,
+      "content": "我把摄影画册留在书店了，周末还可以去翻。",
+      "kind": "text"
+    },
+    {
+      "id": "demo-120",
+      "originalId": "demo-120",
+      "sessionId": "lin",
+      "sessionName": "林知夏",
+      "senderId": "me",
+      "senderName": "我",
+      "timestamp": 1758006270000,
+      "content": "好，下个周末我们再约一杯咖啡。",
+      "kind": "text"
+    }
+  ],
+  "memberships": [
+    {
+      "personId": "me",
+      "groupId": "g-town"
+    },
+    {
+      "personId": "lin",
+      "groupId": "g-town"
+    },
+    {
+      "personId": "chen",
+      "groupId": "g-town"
+    },
+    {
+      "personId": "zhou",
+      "groupId": "g-town"
+    },
+    {
+      "personId": "su",
+      "groupId": "g-town"
+    },
+    {
+      "personId": "me",
+      "groupId": "g-photo"
+    },
+    {
+      "personId": "lin",
+      "groupId": "g-photo"
+    },
+    {
+      "personId": "chen",
+      "groupId": "g-photo"
+    },
+    {
+      "personId": "lu",
+      "groupId": "g-photo"
+    },
+    {
+      "personId": "me",
+      "groupId": "g-book"
+    },
+    {
+      "personId": "lin",
+      "groupId": "g-book"
+    },
+    {
+      "personId": "xu",
+      "groupId": "g-book"
+    },
+    {
+      "personId": "zhou",
+      "groupId": "g-book"
+    }
+  ],
+  "coverage": {
+    "description": "完全虚构的日常示例：2025 年 9 月 1–16 日，6 个私聊、3 个群聊；每条消息均可回溯。",
+    "partial": true,
+    "sessionCount": 9,
+    "messageCount": 120,
+    "warnings": [
+      "演示中的所有姓名、对话、关系均为虚构，不代表已读取你的微信数据。",
+      "只能分析已载入的本地可见会话；不能看到其他人的私聊。",
+      "姓名与拼音缩写属于提及候选，存在歧义时需要人工核对。"
+    ]
+  },
+  "caseboard": {
+    "centerId": "lin",
+    "aliases": {
+      "lin": [
+        "林知夏",
+        "知夏",
+        "lzx"
+      ]
+    },
+    "pins": [
+      "demo-006",
+      "demo-034"
+    ],
+    "excluded": [],
+    "filters": {
+      "startDate": "",
+      "endDate": "",
+      "kinds": [
+        "direct",
+        "mention",
+        "shared-group",
+        "reply"
+      ]
+    },
+    "notes": {
+      "lin": "先核對第三方提及，再補充本人自述。\n本檔案的人物、對話與素材均為虛構。"
+    },
+    "profiles": {
+      "lin": {
+        "displayName": "林知夏",
+        "avatarVariant": 199,
+        "occupation": "書店活動志願者",
+        "location": "橋邊舊書店 / 石橋",
+        "commonPhrases": "「去呀」\n「周末慢一點」",
+        "preferences": "舊書與膠片攝影\n咖啡偏好僅見他人描述，待核實。",
+        "description": "從周末讀書、河邊散步到一次六張照片的小展。\n這是一份虛構人物檔案，所有資料僅用於界面展示。",
+        "fields": [
+          {
+            "label": "相關計畫",
+            "value": "周末慢一點 · 攝影分享小展"
+          },
+          {
+            "label": "待確認事項",
+            "value": "飲品偏好需由本人自述佐證。"
+          }
+        ],
+        "updatedAt": 1758081600000
+      }
+    },
+    "board": {
+      "layout": {},
+      "items": [
+        {
+          "id": "demo-note-review",
+          "type": "note",
+          "title": "核對線索",
+          "text": "舊書店 / 膠片攝影 / 周末\n咖啡偏好：待本人確認",
+          "linkedToCenter": true,
+          "x": 80,
+          "y": 565,
+          "width": 214,
+          "height": 142
+        },
+        {
+          "id": "demo-image-book",
+          "type": "image",
+          "title": "舊書店 · 虛構素材",
+          "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABICAMAAAA+uQBRAAAAqFBMVEVJNCaWflmaSyCXiGy3rZJZRS6IakPXzbWynXVwUzjIs4JueV5zOR9PXUlTXkaLgGa3oHPk2LiljFuqoITErX50e1mbhmF6alByelePdlCgfku5rYu5nmOJUC1iLR7GuZafjGCljGDEsYuqmGywnG/Fs4ipYjaHY0CdhV+0roCym2Kgonybn3ucazuKdVB7aE2Ngmiphkm6m1i9q37Gtou4hhKPVja8gFDx9qKRAAAACXBIWXMAAAsTAAALEwEAmpwYAAACbElEQVRYw+2Yi07bMBSG08KWFJaWsJV1y7oAKV2A0rXc9v5vtnOMYzfxNb5o2rQPUWyp8pffTo4dkjLlxGgnaWT+TcGFOzaCxA+FoIwgKGUJJiHQTdHfL8Al+OSDsMoSQebGiCAK+jVEI2gaS0FpmWDI3alOoBO8s8ZVcGc3/F0AQVHgx9tvQT4KDwFdzY5A+BmWoLRJwAZv0+gF5bApEq5fnKKmCbgGRRFkkWPfprEftFi1yH9LM9SisJtytz+mnFBc+/8FDgK67h8oZxTXvrIWBRWkf0KQfidk2RUhy4b1R6O3vmepCFCLdMc2FLzvoxPIzkWTyU3OqPMDdIICsDwXgWDOqNvGw8OcCTrTIwhSW8HTExE8P4uCU+DylMAE47FBAFPABfv9/kCw3W7nVXUouL8XBMYEggCGfH2t8Q8Kugm8BRUMCwlQAAmwZxTMZoX+XCSboqpiUzQ0QWm1BjSBlWBmmKLFYsEF54yaN8+d12CzgYsfJpDcplTQfVXrCTbQIoIpo+bNKRdccgTBN4KnQJKgrUU9QXv/5DkKEBA0TTvk7a2DALN0E/QFkGC9XncEq9XKLQG/R0HAaxERPD5O4TkYLsAARgE8uyjABD8A0g+eAMZkglhThIIKr74nkOwHTCB5DqBuaASSBPItE96h1LUohIDtyT8ltagnMJQKzstLFMFXir1gzEjgPfzwVJHLThV+AjwXfZEjCoxrUAYS4Fs4+3+RbA2Wv5aEICc7k8B0NvUUmLiW0X3LlAqWdoLPKlSC44EoBYrvJ7PIiAmOgsATHO9Ye8cEO/ZF1xYbT7YGH0OhEgQluuA3FfgGmhNBXQ8AAAAASUVORK5CYII=",
+          "evidenceIds": [
+            "demo-002"
+          ],
+          "linkedToCenter": true,
+          "x": 835,
+          "y": 555,
+          "width": 174,
+          "height": 180
+        }
+      ]
+    }
+  }
+}

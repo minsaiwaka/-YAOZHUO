@@ -1,0 +1,76 @@
+name: 謠诼 · Windows and macOS
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: caseboard-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build ${{ matrix.label }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-2025
+            label: Windows x64 + arm64
+            artifact: Windows-x64-arm64
+            builder_args: --win --x64 --arm64
+          - os: macos-15-intel
+            label: macOS universal
+            artifact: macOS-universal
+            # CI-only ad-hoc test signature, without Developer ID or notarization.
+            # v26 ad-hoc signing requires library-validation entitlements or no
+            # Hardened Runtime. Electron renderer sandbox remains enabled.
+            builder_args: --mac --universal --config.mac.identity=- --config.mac.hardenedRuntime=false --config.mac.notarize=false
+    env:
+      # This test workflow has no signing secrets and never creates releases.
+      # Local packaging retains the default certificate discovery behavior.
+      CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Set up Node.js 24
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Check publication source for local data and credentials
+        run: npm run check:public
+      - name: Test application and local backends
+        run: npm run test:caseboard
+      - name: Rebuild original pixel icon
+        run: node scripts/caseboard-icon.cjs
+      - name: Build renderer and desktop entry
+        run: npm run build:caseboard
+      - name: Package desktop application without publishing
+        env:
+          # Allow the explicit credential-free ad-hoc signature on PR builds too.
+          # No CSC_LINK, APPLE_* or Windows signing credentials are supplied.
+          CSC_FOR_PULL_REQUEST: 'true'
+        run: npx --no-install electron-builder --config electron-builder.caseboard.cjs ${{ matrix.builder_args }} --publish never
+      - name: Upload installers and archives
+        uses: actions/upload-artifact@v7
+        with:
+          name: 謠诼-${{ matrix.artifact }}
+          path: |
+            release-caseboard/*.exe
+            release-caseboard/*.dmg
+            release-caseboard/*.zip
+            release-caseboard/*.blockmap
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 14
