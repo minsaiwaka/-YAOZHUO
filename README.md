@@ -18,7 +18,7 @@
 
 像素风格界面，支持拖动人物卡、图片和便签，自行编排关系线索板。
 
-基于 [WeFlow](https://github.com/hicccc77/WeFlow) 开发。感恩。
+基于 [WeFlow](https://github.com/hicccc77/WeFlow) 开发。感谢🙏
 
 ## 界面预览
 
