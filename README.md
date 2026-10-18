@@ -1,4 +1,5 @@
-<img src="public/caseboard/icon.png" width="88" height="88" alt="謠诼图标">
+<p align="center">
+  <img src="public/caseboard/icon.png" width="88" height="88" alt="謠诼图标">
 </p>
 
 <h1 align="center">謠诼</h1>
